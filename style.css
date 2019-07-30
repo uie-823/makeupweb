@@ -19,6 +19,22 @@ body{
      color:  #ffffff;
 
 }
+/* 導覽列區塊 */
+#logo{
+    /* 字體大小fz2e兩倍大 */
+    font-size: 2em;
+}
+
+nav a{
+    /* 邊框底部 bdb */
+    border-bottom: 1.5px solid #fff;
+    /* 內距p */
+    padding: 10px 0;
+}
+a {
+    /* 文字裝飾 td */
+    text-decoration: none;
+}
 
 /* 盒子區塊 */
  #box{
