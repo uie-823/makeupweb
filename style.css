@@ -1,14 +1,3 @@
-
-
-body{
-    /* 高度 h100p  */
-    height: 100%;
-    /* 背景圖片bgi */
-    background-image: url("https://images.unsplash.com/photo-1562887189-7c2ae6ace6dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
-    /* 背景圖片大小 bgz */
-    background-size:cover;
-
-}
 /* 所有元素 */
 *{
     /* 邊框 - bd */
@@ -17,8 +6,23 @@ body{
      font-family: 微軟正黑體;
      /*字體顏色 c#XXX*/
      color:  #ffffff;
-
 }
+
+body{
+    /* 高度 h100p  */
+    height: 100%;
+    /* 背景圖片bgi */
+    background-image: url("https://images.unsplash.com/photo-1512207855369-643452a63d46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80");
+    /* 背景圖片大小 bgz */
+    background-size:cover;
+}
+
+/* 盒子區塊 */
+#box{
+    /* background-color:rgba(0,0,0,0.3); */
+    height: 500px;
+} 
+
 /* 導覽列區塊 */
 #logo{
     /* 字體大小fz2e兩倍大 */
@@ -29,15 +33,54 @@ nav a{
     /* 邊框底部 bdb */
     border-bottom: 1.5px solid #fff;
     /* 內距p */
-    padding: 10px 0;
+    padding: 7px 5px;
 }
+
+/* hover 滑入 */
+nav a:hover {
+    background-color: rgba(143, 100, 71, 0.4);
+}
+
 a {
     /* 文字裝飾 td */
     text-decoration: none;
 }
 
-/* 盒子區塊 */
- #box{
-    /* background-color:rgba(0,0,0,0.3); */
-    height: 500px;
-} 
+nav div{
+    /* 浮動:靠右flr */
+    float: right;
+}
+
+/* 內容區塊 */
+#content{
+    width: 50%;
+}
+
+#content a{
+   border: 0.5px solid#fff;
+   padding:10px 15px;
+   background-color: rgba(143, 100, 71, 0.4);
+}
+
+#content a:hover{
+    background-color: rgba(143, 100, 71, 0);
+ }
+ 
+/* 按扭區塊 */
+#button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#button a {
+    border: 0.5px solid #fff;
+    padding: 28px;
+    background-color: rgba(143, 100, 71, 0.4);
+    border-radius: 50%;
+    /* 行內區塊 dib */
+    display: inline-block;
+}
+
+#button a:hover {
+    background-color: rgba(143, 100, 71, 0);
+}
