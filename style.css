@@ -6,6 +6,8 @@
      font-family: 微軟正黑體;
      /*字體顏色 c#XXX*/
      color:  #ffffff;
+      /* 字體寬度 fw */
+    font-weight: 600;
      margin: 0;
      padding: 0;
 }
@@ -24,7 +26,8 @@ body,html{
     /* background-color:rgba(0,0,0,0.3); */
     height: 500px;
     width: 800px;
-    margin: 100px auto 0 auto;
+    /* 外距：上 右 下 左 */
+    margin: 20px auto 0 auto;
 } 
 
 /* 導覽列區塊 */
@@ -37,7 +40,7 @@ nav a{
     /* 邊框底部 bdb */
     border-bottom: 1.5px solid #fff;
     /* 內距p */
-    padding: 7px 5px;
+    padding: 7px 10px;
 }
 
 /* hover 滑入 */
@@ -50,9 +53,14 @@ a {
     text-decoration: none;
 }
 
+/* 指 nav 裡面的 div */
 nav div{
     /* 浮動:靠右flr */
     float: right;
+}
+
+nav div a {
+    margin-left: 40px;
 }
 
 /* 內容區塊 */
@@ -63,7 +71,7 @@ nav div{
 
 #content a{
    border: 0.5px solid#fff;
-   padding:10px 15px;
+   padding:20px 50px;
    background-color: rgba(143, 100, 71, 0.4);
 }
 
