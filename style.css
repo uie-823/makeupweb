@@ -127,7 +127,9 @@ footer{
     background-size: cover;
      /* 邊框 bd */
     border: 30px solid #fff;
-    /*區塊陰影 左右位移 上下位移 模糊量 顏色 */
+    /*boder圓角  */
+    border-radius: 20pt;
+      /*區塊陰影 左右位移 上下位移 模糊量 顏色 */
     box-shadow: 0px 8px 10px rgba(51, 40, 40, 0.6);
     /* 外距：上 右 下 左 */
     margin:100px auto 0 auto;
