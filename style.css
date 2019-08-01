@@ -67,6 +67,10 @@ nav div{
    background-color: rgba(143, 100, 71, 0.4);
 }
 
+#content p {
+    margin: 50px 0;
+}
+
 #content a:hover{
     background-color: rgba(143, 100, 71, 0);
  }
