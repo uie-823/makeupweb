@@ -125,5 +125,20 @@ footer{
     height: 500px;
     background-image: url("https://images.unsplash.com/photo-1512207643973-fef70e8cb699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=706&q=80");
     background-size: cover;
+     /* 邊框 bd */
+    border: 30px solid #fff;
+    /*區塊陰影 左右位移 上下位移 模糊量 顏色 */
+    box-shadow: 0px 8px 10px rgba(51, 40, 40, 0.6);
+    /* 外距：上 右 下 左 */
+    margin:100px auto 0 auto;
+     /* 水平置中 tac */
+     text-align: center;
+     /* 垂直置中 一行文字 */
+     line-height: 500px;
+     /* 文字大小 fz20 */
+     font-size: 20pt;
+     /* 文字陰影 ts - 與區塊陰影相同 */
+     text-shadow: 0 8px 10px rgba((51, 40, 40, 0.6);
+
 }
   
