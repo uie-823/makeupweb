@@ -1,7 +1,7 @@
 /* 所有元素 */
 *{
     /* 邊框 - bd */
-    border: 0.5px solid rgba(255, 0, 0, 0.3);
+    border: 0.5px solid rgba(255, 0, 0, 0);
      /* 字型 ff */
      font-family: 微軟正黑體;
      /*字體顏色 c#XXX*/
